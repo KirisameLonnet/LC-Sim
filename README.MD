@@ -1,25 +1,3 @@
-<div style="page-break-after: always;">
-
-<div align="center">
-
-# 上海大学2025~2026学年 秋季学期 电工技术课程 小论文（报告）
-
-## 课程名称：电工技术  课程编号：________  
-# 论文（报告）题目：使用仿真软件模拟LC震荡电路
-
-</div>
-
-论文评语：
-
-成绩：
-
-任课教师：
-
-评阅日期：
-
-</div>
-
-
 # 摘要
 
 本文通过GNU Octave开源科学计算软件（兼容Matlab）实现了LC震荡电路的交互式模拟，研究了理想无损耗条件下电容和电感之间的能量转换过程。仿真程序采用辛欧拉法求解微分方程，保证了长时间模拟下的能量守恒特性。通过可视化电容电压、电流和能量分布的动态变化，直观地展示了LC震荡电路中电场能和磁场能的周期性转换规律。
@@ -86,7 +64,10 @@ $$\frac{d^2Q}{dt^2} + \omega_0^2 Q = 0$$
 
 $$E_{total} = E_C + E_L = \frac{1}{2}Cv_C^2 + \frac{1}{2}Li^2 = constant$$
 
-其中 $E_C$ 为电场能，$E_L$ 为磁场能。能量计算的代码实现：
+其中 $E_C$ 为电场能，$E_L$ 为磁
+# 仿真脚本源码链接
+
+由于脚本过长，我将脚本存放在Github平台，链接：https://github.com/KirisameLonnet/LC-Sim场能。能量计算的代码实现：
 
 ```matlab
 % 能量计算
@@ -330,7 +311,3 @@ $$E_{total} = \frac{1}{2}CV^2 = \frac{1}{2} \times 10^{-6} \times 10^2 = 50 \tex
 [3] Google Gemini 2.5 Pro
 
 [4] 知乎：李工谈元器件 还搞不懂 LC振荡电路原理？看这一文就够了，图文结合，立马带你搞定 https://zhuanlan.zhihu.com/p/532163425
-
-# 仿真脚本源码链接
-
-由于脚本过长，我将脚本存放在Github平台，链接：https://github.com/KirisameLonnet/LC-Sim

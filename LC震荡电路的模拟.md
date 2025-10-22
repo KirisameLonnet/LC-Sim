@@ -333,4 +333,4 @@ $$E_{total} = \frac{1}{2}CV^2 = \frac{1}{2} \times 10^{-6} \times 10^2 = 50 \tex
 
 # 仿真脚本源码链接
 
-由于脚本过长，我将脚本存放在Github平台，链接：https://github.com/KirisameLonnet/LC-Sim
+由于脚本过长，我将源码与本论文电子原稿存放在Github平台，链接：https://github.com/KirisameLonnet/LC-Sim
